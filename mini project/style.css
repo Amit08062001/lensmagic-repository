@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.main-box{
+    
+}
+.button_one i{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 9px;
+    position: absolute;
+    line-height: 60px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s linear;
+   
+    
+
+}
+.sidebar-menu{
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255, 255,255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255,255, 0.5);
+    left:-300px;
+    transition: all 0.3s linear;
+    background-color: black;
+    
+
+}
+ .sidebar-menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 0 4px rgba(255, 255,255, 0.5);
+    height: 60px;
+}
+.button_two i{
+    color: grey;
+    position: absolute;
+    font-size: 25px;
+    line-height: 60px;
+    left: 270px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.sidebar-menu .logo a{
+    position: absolute;
+    left: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.sidebar-menu .menubar{
+    position: absolute;
+    width: 100%;
+    color: white;
+    top: 80px;
+}
+.sidebar-menu .menubar li{
+    margin-top: 6px;
+    padding: 14px 20px;
+}
+.sidebar-menu .menubar i,a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.sidebar-menu .menubar i{
+    padding-right: 8px;
+}
+.sidebar-menu .social_media{
+    position: absolute;
+    left: 25%;
+    bottom: 70px;
+}
+.sidebar-menu .social_media i{
+    opacity: 0.5;
+    color: white;
+    padding: 0 4px;
+}
+#check{
+    display: none;
+}
+.sidebar-menu .menubar li:hover{
+    box-shadow: 0 0 4px rgba(255, 255,255, 0.5);
+
+}
+.button_one i:hover{
+    font-size: 40px;
+}
+.button_two i:hover{
+    font-size: 30px;
+}
+.sidebar-menu .social_media i:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+#check:checked ~ .sidebar-menu{
+    left: 0;
+}
+#check:checked ~ .button_one i{
+    
+    opacity: 0;
+}
+nav{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+}
+body{
+    min-height: 100vh;
+    background-image: url(camera.jpeg);
+    height:30%;
+    background-repeat: no-repeat;
+    background-color:#746f6f ;
+    color: white;
+
+    
+    
+}
+#hey{
+    text-align: center;
+    background: linear-gradient( to right, red,rgb(255, 3, 3),blue);
+    font-size: 90px;
+    font-weight: 300;
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient 3s linear infinite;
+
+}
+#gallery{
+   height: 700px;
+   width: 100%;
+   background-color: #746f6f;
+   margin-top: 700px;
+   
+
+}
+.gallery-item{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    
+
+}
+.gallery-header{
+    margin-left: 100px;
+    margin-right: 10px;
+    font-size: 35px;
+    margin-top: 10px ;
+    font-style: italic;
+    
+    
+}
+.gallery-words{
+    margin-left: 150px;
+    font-size: 25px;
+    margin-top: 20px ;
+    margin-right: 50px;
+}
+.Pictures-heading{
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    
+}
+.Pictures{
+    width: 100%;
+    height: 1110px;
+    background-color:#746f6f ;
+   
+    margin-top: 25px;
+   
+}
+.Pictures-image{
+    border: 4px solid whitesmoke ;
+    border-radius: 5px;
+}
+.pic{
+    height: 500px;
+    width: 620px;
+    
+    padding-left: 5px;
+
+
+}
+#about{
+    margin-top: 1130px;
+    width: 100%;
+    height: 650px;
+}
+.about-item{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px ;
+    margin-bottom: 10px;
+    
+}
+.about-words{
+    margin-left: 120px;
+    font-size: 25px;
+    margin-top: 20px ;
+    margin-right: 50px;
+}
+.event-item{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 50px ; 
+}
+.event-image{
+    width: 780px;
+    height: 500px;
+    border: 4px solid whitesmoke ;
+    border-radius: 5px;
+    margin-left: 480px;
+
+}
+.eve{
+    height: 247px;
+    width: 253px;
+    
+    padding-left: 2px;
+
+
+}
+.contact-item{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px ;
+    margin-bottom: 10px;
+}
+.contact-h{
+    font-size: 30px;
+    font-style: italic;
+    padding-left: 400px;
+}
+.contact-w{
+    font-size: 25px;
+    font-style: italic;
+    padding-left: 500px;
+}
+.feedback{
+    font-size: 23px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+
+}
+form{
+    font-size: 30px;
+    height: 350px;
+    width: 700px;
+    border: 3px solid white;
+    
+    margin-left: 600px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+    background-color: rgb(178, 169, 169);
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.input{
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-left: 15px;
+}
+form h4{
+    font-size: 40px;
+   
+    margin-left: 4px;
+
+}
+.lev{
+    padding-left: 11px;
+    color:blue;
+    font-size: 30px ;
+    font-weight: 1000;
+}
+.fee{
+   font-size: 25px ;
+   font-style:bolder ;
+   
+}
+button{
+    border-radius: 25px;
+    width:100px ;
+    height:40px ;
+    margin-left: 30px;
+}
+button:hover{
+    background-color: blue;
+}
+@keyframes gradient{
+    0%{
+        background-position: 0% 75%;
+    }
+    50%{
+        background-position: 100% 30%;
+    }
+   100%{
+        background-position: 0% 70%;
+    }
+}
+
+
+
+
+
